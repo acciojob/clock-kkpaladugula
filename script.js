@@ -1,1 +1,3 @@
-//your JS code here. If required.
+     const displayTime = document.querySelector("#timer");
+    const time = new Date();
+    displayTime.textContent = time.toLocaleString();
